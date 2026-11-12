@@ -1,0 +1,1 @@
+{"events":[{"endpoint":"/v1/search","idempotencyKey":"demo-req-1","units":3},{"endpoint":"/v1/chat","idempotencyKey":"demo-req-2","units":10},{"endpoint":"/v1/search","idempotencyKey":"demo-req-1","units":3}],"note":"Example events for a key (POST each to /events with the key as a Bearer token). The third line replays the first line's idempotency key and must not double-count."}
